@@ -22,4 +22,8 @@ export class WriterRepository{
 
 		return false;
 	}
+
+    getList(){
+        return this.list;
+    }
 }

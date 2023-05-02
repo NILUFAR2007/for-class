@@ -28,6 +28,9 @@ var WriterRepository = /** @class */ (function () {
         }
         return false;
     };
+    WriterRepository.prototype.getList = function () {
+        return this.list;
+    };
     return WriterRepository;
 }());
 exports.WriterRepository = WriterRepository;
