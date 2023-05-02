@@ -1,0 +1,1 @@
+export type BOOK_TYPE = 'Harry Poter' | 'Peter Pen' | 'The Giver' | 'Number the Stars'
